@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.f-nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgb(119, 139, 91);
+  padding: 18px;
+ 
+  
+  z-index: 1000;
+} 
+/* Add this CSS to make header part stable */
+
+
+/* Adjust padding or margins for content to prevent overlapping */
+/* Add padding to body or margins to sections */
+
+
+
+
+.feature{
+  display: flex;
+
+}
+.feature .app{
+  display: flex;
+  margin-inline: 22px;
+
+}
+.feature .app i{
+  margin-inline: 8px;
+}
+
+.sec-nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 11px;
+ align-items: center;
+  
+}
+
+.logo-1 img {
+  width: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sec-nav ul li img{
+  width: 3%;
+  margin-left: 22px;
+}
+.sec-nav ul li a{
+  margin-inline: 22px;
+}
+.sec-nav .inputs{
+  display: flex;
+}
+.sec-nav .inputs button{
+  margin-inline: 22px;
+}
+.sec-nav .inputs input{
+  width: 220px;
+  background-color: rgb(168, 183, 117);
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+  height: 30px;
+
+}
+.sec-nav .inputs button{
+  width: 80px;
+  height: 35px;
+  background-color: rgb(139, 173, 86);
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+.items{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+.items ul li a{
+list-style: none;
+  margin-inline: 22px;
+  text-align: center;
+}
+.items ul li button{
+  width: 100px;
+  height: 34px;
+  background-color: rgb(197, 220, 128);
+  color: rgba(22, 93, 155, 0.942);
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+.items ul li{
+  list-style: none;
+}
+/* Container Styles */
+/* Google Font CDN Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Container Styles */
+.container {
+  max-width: 1100px;
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .content .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.container .content .left-side::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+
+.container .content .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+
+.container .content .left-side .details i {
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+
+.container .content .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container .content .left-side .details .text-one,
+.container .content .left-side .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.container .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+
+.container .content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+
+.container .content .right-side .input-box {
+  height: 55px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.container .content .right-side .input-box input,
+.container .content .right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #f0f1f8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.container .content .right-side .message-box {
+  min-height: 110px;
+}
+
+.container .content .right-side .input-box textarea {
+  padding-top: 6px;
+}
+
+.container .content .right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.container .content .right-side .button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container .content .right-side .button input[type="button"]:hover {
+  background: #5029bc;
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgb(123, 114, 114);
+}
+
+.footer .list {
+  flex-direction: column;
+}
+
+.footer .list ul li {
+  list-style: none;
+}
+
+.footer .list ul li a {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.footer .list ul li h2 {
+  font-size: 18px;
+}

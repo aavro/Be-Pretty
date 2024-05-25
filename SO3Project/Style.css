@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(119, 139, 91);
+    padding: 18px;
+   
+    
+    z-index: 1000;
+} 
+
+
+a {
+    text-decoration: none;
+}
+
+.logo-1 img{
+    max-width:40px ;
+}
+
+.feature{
+    display: flex;
+
+}
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+
+}
+.feature .app i{
+    margin-inline: 8px;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    align-items: center;
+   
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sec-nav ul li img{
+    width: 3%;
+    margin-left: 22px;
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+}
+.sec-nav .inputs{
+    display: flex;
+}
+.sec-nav .inputs button{
+    margin-inline: 22px;
+}
+.sec-nav .inputs input{
+    width: 220px;
+    background-color: rgb(168, 183, 117);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    height: 30px;
+
+}
+.sec-nav .inputs button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(139, 173, 86);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.items ul li a{
+list-style: none;
+    margin-inline: 22px;
+    text-align: center;
+}
+.items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: rgb(197, 220, 128);
+    color: rgba(22, 93, 155, 0.942);
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items ul li{
+    list-style: none;
+}
+.main-page img{
+    width: 200%;
+}
+.pink img{
+    width: 100%;
+    height: 400px;
+}
+.pink h2{
+    text-align: center;
+    padding: 7px;
+}
+.brand h2{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.card img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.brand h2{
+    text-align: center;
+    padding: 22px;
+}
+.topbrand{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.topbrand img{
+    margin-inline: 22px;
+    width: 44%;
+}.only-bepretty h2{
+    text-align: center;
+    padding: 22px;
+}
+.only-bepretty .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.only img{
+    width: 44%;
+    margin-inline: 22px;
+    height: 500px;
+    
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.makeup img{
+    width: 22%;
+    margin-inline: 18px;
+}
+.special h2{
+    text-align: center;
+    padding: 22px;
+}
+.special .curation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.curation img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.beauty h2{
+    text-align: center;
+    padding: 22px;
+}
+.beauty .advice{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.advice img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(123, 114, 114);
+}
+.footer .list{
+    flex-direction: column;
+}
+.footer .list ul li {
+    list-style: none;
+}
+.footer .list ul li a{
+    font-weight: 600;
+    font-size: 13px;
+}
+.footer .list ul li h2{
+    font-size: 18px;
+}
+.main-img img {
+    width: 100vw;
+    height: 400px; 
+    display: block;
+    
+}
